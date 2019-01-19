@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-const Style = {};
-
 function Counter() {
   let [count, setCount] = useState(0);
 
@@ -13,7 +11,13 @@ function Counter() {
     <React.Fragment>
       <div
         onClick={handleClick}
-        style={{ display: "inline-block", border: "2px solid", padding: "5px" }}
+        style={{
+          display: "inline-block",
+          border: "2px solid",
+          padding: "5px",
+          cursor: "pointer",
+          userSelect: "none"
+        }}
       >
         Click Me To Increase The Count....
       </div>
