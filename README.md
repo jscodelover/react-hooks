@@ -4,7 +4,7 @@
 
 ### Clone the project using
 
-git clone https://github.com/manisha1896/react-hooks.git
+git clone https://github.com/jscodelover/react-hooks.git
 
 ## Available Scripts
 
